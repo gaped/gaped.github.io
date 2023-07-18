@@ -1,7 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
-minima:
-  skin: dark
+@import
+  "_sass/minima/skins/dark.scss",
+  "minima/initialize";
